@@ -1,0 +1,38 @@
+{
+  "name": "react-npm-module-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate repo for a React Component as an npm module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist --copy-files",
+    "prepare": "npm run-script build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loqtor/react-npm-module-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "{Your name here}",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loqtor/react-npm-module-boilerplate/issues"
+  },
+  "homepage": "https://github.com/loqtor/react-npm-module-boilerplate#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "css-loader": "^0.28.11",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "style-loader": "^0.20.3"
+  },
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-syntax-jsx": "^7.2.0",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "babel-loader": "^8.0.6"
+  }
+}
