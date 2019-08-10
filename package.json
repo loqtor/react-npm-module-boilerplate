@@ -6,6 +6,7 @@
   "scripts": {
     "build": "babel src -d dist --copy-files",
     "prepare": "npm run-script build",
+    "update": "npm version patch -m \"New version ready.\";npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
